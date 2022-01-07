@@ -74,7 +74,7 @@
 | ----------- | :----------- |
 |`<iframe>`|Makes it possible to embed another page within a page. In HTML5 this is known as nested browsing. [^1]|
 
-[^1]:**Tip 1:** Use CSS to style it.
+[^1]: **Tip 1:** Use CSS to style it.
   **Tip 2:** It is a good practice to always include a title attribute for this. This is used by screen readers to read out what the content of the `<iframe>` is.
     
 ## Images
@@ -131,43 +131,44 @@
 |`<tbody> `|Groups the body content(rows) in a table.|
 |`<tfoot> `|Groups the footer content in a table.|
 |`<col> `|Specifies column properties for each column within a `<colgroup>` element. Useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.|
-|`<colgroup> `|Specifies a group of one or more columns in a table for formatting. Useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row. [^2]|
+|`<colgroup> `|Specifies a group of one or more columns in a table for formatting. Useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row. [^bignote]|
 
-[^2]:**Note:** `<colgroup>` must be a child of a `<table>`, after any `<caption>` elements and before any `<thead>`, `<tbody>`, `<tfoot>`, and `<tr>` elements.  **Tip:** To define different properties to a column within a `<colgroup>`, use the `<col>` tag within the `<colgroup>` tag.
+[^bignote]:**Note 1:** `<colgroup>` must be a child of a `<table>`, after any `<caption>` elements and before any `<thead>`, `<tbody>`, `<tfoot>`, and `<tr>` elements.
+  **Tip 1:** To define different properties to a column within a `<colgroup>`, use the `<col>` tag within the `<colgroup>` tag.
 
 ## Styles and Semantics
 
 | Tag | Description |
 | ----------- | :----------- |
-|`<style> `||
-|`<div> `||
-|`<span> `||
-|`<header> `||
-|`<footer> `||
-|`<main> `||
-|`<section> `||
-|`<article> `||
-|`<aside> `||
-|`<details> `||
-|`<dialog> `||
-|`<summary> `||
-|`<data> `||
+|`<style> `|For declaring style sheets within a document.|
+|`<div> `|A divider or a kind of generic container.|
+|`<span> `|Used as a container. Useful for applying styles to or around text, especially inline.|
+|`<header> `|A container for introductory content or a set of navigational links that goes above the body.|
+|`<footer> `|Defines the footer of a document, below the main content.|
+|`<main> `|Specifies the main content of a document.|
+|`<section> `|Defines a section in a document.|
+|`<article> `|Specifies independent, self-contained content. An article should make sense on its own and it should be possible to distribute it independently from the rest of the site. This tag can be used to contain blog entries, forum posts, news story etc.|
+|`<aside> `|Defines content aside from the page content. The `<aside>` content is often placed as a sidebar in a document.|
+|`<details> `|Defines additional details that the user can view or hide.|
+|`<dialog> `|Defines a dialog box or window.|
+|`<summary> `|Defines a visible heading for the `<details>` element. The heading can be clicked to view/hide the details. It should be the first child element of `<details>`|
+|`<data> `|Used to add a machine-readable translation of a given content. This element provides both a machine-readable value for data processors, and a human-readable value for rendering in a browser.|
 
 ## Meta Info
 
 | Tag | Description |
 | ----------- | :----------- |
-|`<head> `||
-|`<meta>	`||
-|`<base> `||
+|`<head>`|The head section. Used mostly for metadata/information for the document.|
+|`<meta>	`|Defines metadata about an HTML document. It always go inside the `<head>` element, and are typically used to specify character set, page description, keywords, author of the document, and viewport settings. Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services.|
+|`<base> `|Specifies the base URL and/or target for all relative URLs in a document. It must have either an href or a target attribute present, or both. There can only be one single `<base>` element in a document, and it must be inside the `<head>` element.|
 
 ## Programming
 
 
 | Tag | Description |
 | ----------- | :----------- |
-|`<script> `||
-|`<noscript> `||
-|`<embed> `||
-|`<object> `||
-|`<param> `||
+|`<script> `|Defines a client-side script. The `<script>` element either contains scripting statements, or it points to an external script file through the src attribute.|
+|`<noscript> `|Defines an alternate content to be displayed to users that have disabled scripts in their browser or have a browser that doesn't support script.|
+|`<embed> `|Defines a container for an external(non-HTML) application.|
+|`<object> `| For embedding objects within a document.|
+|`<param> `|Used to define parameters for an `<object>` element.|
