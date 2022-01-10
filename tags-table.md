@@ -7,7 +7,7 @@
 |`<head>`|The head section. Used mostly for metadata/information for the document.|
 |`<title>`|The title of an HTML document.|
 |`<body>`| Establishes the body of an HTML document.|
-|`<h1> to <h6>`|Defines HTML headings and its levels.|
+|`<h1>` to `<h6>`|Defines HTML headings and its levels.|
 |`<p>`|Defines a paragraph.|
 |`<br>`|Inserts a single line break.|
 |`<hr>`|This can be used for separating text within a paragraph. Typically renders as a horizontal line running across the page.|
