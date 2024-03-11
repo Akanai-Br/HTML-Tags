@@ -1,4 +1,5 @@
 # HTML Tags
+An HTML tags table with brief explanation. Markdown practice. :smile:
 ## Basic HTML
 |     Tag     | Description |
 | ---------- | :---------- |
